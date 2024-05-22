@@ -124,6 +124,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -146,6 +147,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -163,13 +165,17 @@
   <ItemGroup>
     <ClCompile Include="libs\romaji\romaji.cpp" />
     <ClCompile Include="libs\romaji\utf8.cpp" />
+    <ClCompile Include="PersistentDataManager.cpp" />
+    <ClCompile Include="Settings.cpp" />
     <ClCompile Include="Spotify.cpp" />
     <ClCompile Include="Spotititle.cpp" />
     <ClCompile Include="StylizedSubtitleWindow.cpp" />
     <ClCompile Include="SubtitleWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PersistentDataManager.h" />
     <ClInclude Include="resource1.h" />
+    <ClInclude Include="Settings.h" />
     <ClInclude Include="Spotify.h" />
     <ClInclude Include="StylizedSubtitleWindow.h" />
     <ClInclude Include="SubtitleWindow.h" />
